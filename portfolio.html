@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <style>
+        body{
+            font-family: 'Poppins', sans-serif;
+            background-color: #3498db;
+            display: flex;
+            justify-content: center;
+            margin: 20px;
+        }
+
+        .cv-container{
+            background-color: white;
+            width: 900px;
+            position: relative;
+
+        }
+
+        .header{
+            background-color: #0f1c2e;
+            padding: 40px;
+            color: white;
+        }
+        
+
+        .main-content {
+        display: flex; 
+        padding: 20px; 
+        box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+
+        .left-side {
+            width: 35%;
+            background-color: #f9f9f9; 
+            padding: 10px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+
+        }
+
+        .right-side {
+            width: 65%;
+            padding: 10px;
+        }
+
+        .photo-container{
+            top: 30px;
+            right: 50px;
+            position: absolute;
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            border: 5px solid black;
+            overflow: hidden;
+        }
+        .photo-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; 
+        }
+
+        h1 {
+            border-bottom: 2px solid white; 
+            padding-bottom: 5px;           
+            display: inline-block;        
+            margin-bottom: 10px;           
+        }
+        h2 {
+            border-bottom: 2px solid #333; /* The line itself */
+            padding-bottom: 5px;           /* Space between text and line */
+            display: inline-block;         /* Makes the line only as long as the text, not the whole width */
+            margin-bottom: 10px;           /* Space after the line */
+        }
+
+        
+
+        
+
+    </style>
+</head>
+<body>
+    <div class="cv-container">
+        <div class="header">
+            <h1>Sarthak Gupta</h1>
+            <p>Aspiring Web Developer</p>
+            <div class="photo-container">
+                
+                <img src="Sarthak photo.jpg" alt="Profile photo sarthak">
+            </div>
+
+        </div>
+        <div class="main-content" >
+            <div class="left-side">
+                <h2>SKILLS</h2>
+                <ul>
+                    <li>C++</li>
+                    <li>Python</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </ul>
+            </div>
+            <div class="right-side">
+                <h1>PROFILE</h1>
+                <P>I am a keen learner and enthusiast currently pursuing my degree in CSE with a specialization 
+                    in AIML. As an aspiring web developer, 
+                    I am eager to apply my knowledge of C++, Python, and HTML to build meaningful projects 
+                    and solve real-world problems.</P>
+            </div>
+            
+        </div>
+        <div class="bottom-section">
+            <p>bottom content</p>
+        </div>
+    </div>
+    
+</body>
+</html>
